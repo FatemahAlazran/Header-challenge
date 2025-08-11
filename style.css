@@ -1,0 +1,36 @@
+:root{
+    --primary-color: rgb(233, 245, 239) ;
+    --secondary-color: rgb(220, 255, 223); 
+    --text-color:rgb(79, 108, 79);
+    }
+header{
+background-color: rgb(226, 246, 200);
+color: var(--text-color);
+font-weight: bold;
+}
+
+.header-title{
+margin-left: 15px;
+
+}
+
+.list-display{
+display: flex;  /* تخلي العناصر يم بعض */
+list-style: none; /* يشيل النقاط من اللستة  */
+justify-content: center;
+}
+
+a{
+color: var(--text-color);
+text-decoration: none;
+display: block;
+margin-right: 10px;
+margin-bottom: 10px;
+padding: 10px;
+background-color: var(--secondary-color);
+}
+
+body{
+    background-color: rgb(242, 245, 238);
+}
+
