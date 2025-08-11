@@ -17,7 +17,7 @@ margin-left: 15px;
 .list-display{
 display: flex;  /* تخلي العناصر يم بعض */
 list-style: none; /* يشيل النقاط من اللستة  */
-justify-content: center;
+justify-content: center;/* horizantal ترتب العناصر  */
 }
 
 a{
